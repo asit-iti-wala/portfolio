@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asit Toppo | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">AT.</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1 class="reveal">Asit Toppo</h1>
+        <p class="reveal-delay">ITI Electrician & Tech Enthusiast</p>
+        <div class="scroll-indicator"></div>
+    </header>
+
+    <section id="education" class="section">
+        <h2 class="reveal">Academic Journey</h2>
+        <div class="timeline">
+            <div class="item reveal">
+                <h3>Poly-Tech</h3>
+                <span>2026 — 2028 (Upcoming)</span>
+            </div>
+            <div class="item reveal">
+                <h3>ITI - Electrician Trade</h3>
+                <span>2024 — 2026</span>
+            </div>
+            <div class="item reveal">
+                <h3>12th Intermediate</h3>
+                <span>2024 — NIOS</span>
+            </div>
+            <div class="item reveal">
+                <h3>10th High School</h3>
+                <span>2021 — M.P.S, Ghaziabad</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section dark">
+        <div class="grid">
+            <div class="reveal">
+                <h2>Interests</h2>
+                <p>Tech Innovation • Music Production • Electrical Engineering</p>
+            </div>
+            <div class="reveal">
+                <h2>Languages</h2>
+                <p>English & Hindi (Bilingual)</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="contact-info reveal">
+                <h2>Let's Connect</h2>
+                <p>9899851112</p>
+                <p>asittoppo209@gmail.com</p>
+                <p>227, Chman Colony, Sadiq nagar, <br> Sihani, Nandgram, GZB, UP</p>
+            </div>
+            
+            <div class="qr-section reveal">
+                <p>Scan to Pay</p>
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=upi://pay?pa=poorandy@sbi" alt="Payment QR" class="qr-code">
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Asit Toppo. Born 21.05.2004</p>
+    </footer>
+
+    <script>
+        ScrollReveal().reveal('.reveal', { delay: 200, distance: '50px', origin: 'bottom' });
+        ScrollReveal().reveal('.reveal-delay', { delay: 400, distance: '50px', origin: 'bottom' });
+    </script>
+</body>
+</html>
